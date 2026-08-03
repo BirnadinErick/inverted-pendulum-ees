@@ -1,0 +1,60 @@
+# ==========================================
+# PlatformIO
+# ==========================================
+# Build directories and dependency cache
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# PlatformIO / IDE integrations
+.clang_complete
+.gcc-flags.json
+*.pyc
+
+# Local VS Code settings (optional but recommended to avoid team conflicts)
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+
+
+# ==========================================
+# MATLAB / Simulink
+# ==========================================
+# Autosave files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+*.bak
+
+# Derived content-obscured files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Code generation folders
+slprj/
+sccprj/
+codegen/
+
+# Cache files
+*.slxc
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
+# obsidian vault
+.obisidian/

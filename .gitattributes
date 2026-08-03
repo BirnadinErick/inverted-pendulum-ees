@@ -1,0 +1,8 @@
+# Prevent Git from modifying line endings in binary MATLAB/Simulink files and disable merges/diffs
+*.slx -crlf -diff -merge
+*.mdl -crlf -diff -merge
+*.mat -crlf -diff -merge
+*.mlx -crlf -diff -merge
+*.slxc -crlf -diff -merge
+*.mex* -crlf -diff -merge
+*.p -crlf -diff -merge
