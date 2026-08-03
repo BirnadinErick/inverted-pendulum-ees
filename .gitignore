@@ -58,3 +58,4 @@ codegen/
 
 # obsidian vault
 .obisidian/
+/.obsidian
