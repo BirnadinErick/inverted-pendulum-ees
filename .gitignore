@@ -56,7 +56,12 @@ codegen/
 # Cloud based storage dotfile
 .MATLABDriveTag
 
-# obsidian vault
-.obisidian/
-/.obsidian
-/.obsidian/*
+# ==========================================
+# Obsidian
+# ==========================================
+# Ignore Obsidian configuration folder (saves local workspace layouts, themes, etc.)
+.obsidian/
+
+# Ignore Obsidian internal trash folder
+.trash/
+
