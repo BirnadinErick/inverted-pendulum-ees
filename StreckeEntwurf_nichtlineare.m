@@ -20,9 +20,9 @@
 % =========================================================================
 
 %% Parameters
-M = 1; % Wagon mass / kg
-m = 1; % Pendulum point-mass / kg
-l = 1;  % Length of pendulum rod / m
+M = 0.5; % Wagon mass / kg
+m = 0.2; % Pendulum point-mass / kg
+l = 0.3;  % Length of pendulum rod / m
 b = 0.1;  % Cart rail friction coefficient
 g = 9.81; % ms-2
 F = 0; % input / N
